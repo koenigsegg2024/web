@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="Es">
+    
+     <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>koenigsegg</title>
+     <link rel="icon" href="../img/logo.ico">
+     <link rel="stylesheet" href="style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     </head> 
+    
+     <style>
+        header{
+    background-color: rgb(43, 41, 42, 0.247);
+    width:100%;
+}
+
+img{
+    width: 150px;
+}
+body {
+   
+   
+    text-align: center;
+    background-color: #000000;
+}
+
+h1  {
+    color: #b1b1b1;
+    text-align: center;
+    
+}
+
+video {
+    width: 100%;
+    height: 450px;
+    border: 0px solid #002fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb();
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 ;
+}
+source{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: center;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #d1d1d1;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 5px;
+  flex-wrap: wrap;
+}
+
+.icon-elem {
+  list-style: none;
+}
+
+.icon {
+  color: white;
+  font-size: 32px;
+  display: inline-block;
+  margin: 0 10px;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  transform: translateY(-10px);
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.menu-elem {
+  list-style: none;
+}
+.menu-icon {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px 10px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.menu-icon:hover {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+
+     </style>
+       
+     <body>
+     
+    <header>
+      
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <El div es el contenedor genérico para el contenido>
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"></a>
+              <img src="../img/logo de inicio.png" alt="150 px">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href=".../secciones/modelos.html">MODELOS MAS IMPORTANTES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../secciones/historia.html">HISTORIA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../secciones/contacto.html">CONTACTO  </a>
+                  </li>
+                  <li class="nav-item">
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true"></a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Koenigsegg" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+     </header>
+     
+     <div class="container">
+        <style>
+        * {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display:0;
+    justify-content: 0;
+    align-items: 0;
+    background: linear-gradient(rgba(0 0 0 / .8),rgba(0 0 0 / .8)),url(/img/imagen\ koenigsegg\ carrusel\ 1.jpg);
+    background-size: cover;
+    background-position: 0;
+    background-repeat: no-repeat;
+}
+.form-text a{
+    color: crimson;
+}
+.container {
+    display:grid;
+    grid-template-columns: repeat(2,50%);
+    padding:20px;
+    gap:10px;
+    width: 1000px;
+}
+
+.box-info {
+    color:#fff;
+    display:flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.box-info > h1 {
+    text-align: left;
+    letter-spacing: 5px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap:25px
+}
+
+.data > p {
+    font-size: 1rem;
+}
+
+.data > p > i {
+    color:crimson;
+    margin-right: 10px;
+    font-size:25px;
+}
+
+
+
+.links {
+    display:flex;
+    gap:15px;
+}
+
+.links > a {
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    background: crimson;
+    text-align: center;
+    transition: .1s;
+}
+
+.links > a > i {
+    color:#fff;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    gap:15px;
+}
+
+.input-box {
+    position:relative;
+}
+
+.input-box > input {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    outline:none;
+    background: rgba(255 255 255 / .1);
+    border:3px solid transparent;
+    letter-spacing: 1px;
+    transition:.3s;
+    color:#fff;
+    
+}
+
+.input-box > input::placeholder,
+.input-box > textarea::placeholder {
+    color:#a3a3a3;
+    
+}
+
+.input-box > input:focus::placeholder,
+.input-box > textarea:focus::placeholder {
+    color:transparent;
+}
+
+.input-box > input:focus,
+.input-box > textarea:focus {
+    border-bottom:3px solid crimson;
+    animation: shake .2s;
+}
+
+.input-box > textarea {
+    width: 100%;
+    height: 130px;
+    padding: 10px;
+    background: rgba(255 255 255 / .1);
+    border:3px solid transparent;
+    letter-spacing: 1px;
+    outline: none;
+    transition:.3s;
+    color:#fff;
+    letter-spacing: 1.5px;
+}
+
+
+.input-box > i {
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color:rgba(255 255 255 / .3);
+    transition: .3s;
+}
+
+.input-box > input:focus ~ i {
+    color:crimson;
+}
+
+form > button {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background: crimson;
+    color:#fff;
+    border:none;
+    transition: .1s;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form > button:hover,
+.links > a:hover {
+    background: rgb(172, 16, 47);
+}
+
+@keyframes shake { 
+    0%, 100% {transform: translateX(0);} 
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);} 
+    20%, 40%, 60%, 80% {transform: translateX(10px);} 
+ }
+
+
+@media screen and (max-width:600px) {
+    .container {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .box-info {
+        gap:15px;
+    }
+
+    .box-info > h1 {
+        font-size: 1.5rem;
+    }
+}
+
+        </style>
+        <div class="box-info">
+            <h1>CONTÁCTATE CON NOSOTROS</h1>
+            <div class="data">
+                <p><i class="fa-solid fa-phone"></i> </p>
+                <p><i class="fa-solid fa-envelope"></i> koenigsegg.web@gmail.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> Koenigsegg Automotive AB .Ängelholm, Suecia</p>
+            </div>
+            <link rel="stylesheet" href="https://www.instagram.com/koenigsegg/?locale=es_us&hl=am-et">
+        </div>
+        <form action="https://formsubmit.co/koenigsegg.web@gmail.com" method="POST">
+            <div class="input-box">
+                <input type="text" placeholder="Nombre y apellido" required>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="email" required placeholder="Correo electrónico">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Asunto">
+                <i class="fa-solid fa-pen-to-square"></i>
+            </div>
+            <div class="input-box">
+                <textarea placeholder="Escribe tu mensaje..."></textarea>
+            </div>
+            <div class="form-txt">
+                <a href="">Politica de privacidad</a>
+                <a href="#">Terminos y condiciones</a>
+            </div>
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </div>
+     
+
+   </div>        
+    
+    <footer class="footer">
+      <ul class="social-icon">
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="mail-outline"></ion-icon>
+          </a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li class="menu-elem">
+          <a href="../index.html" class="menu-icon"> Inicio </a>
+        </li>
+        <li class="menu-elem">
+          <a href="../secciones/modelos.html" class="menu-icon"> Modelos Mas Importantes </a>
+        </li>
+        <li class="menu-elem">
+          <a href="../secciones/historia.html" class="menu-icon"> Historia </a>
+        </li>
+        <li class="menu-elem">
+          <a href="../secciones/contacto.html" class="menu-icon"> Contacto </a>
+        </li>
+      </ul>
+      <p class="text">Copyright © since 1994 – Koenigsegg Automotive AB – contacto: koenigsegg.web@gmail.com</p>
+    </footer>
+    </body>
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     </html>
